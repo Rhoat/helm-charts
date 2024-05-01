@@ -1,0 +1,4 @@
+1. Check the status of your pods by running:
+  kubectl get pods -l app.kubernetes.io/name={{ include "istio-watchdog.name" . }},app.kubernetes.io/instance={{ .Release.Name }} --namespace {{ .Release.Namespace }}
+2. Check the logs by running:
+  kubectl logs -l app.kubernetes.io/name={{ include "istio-watchdog.name" . }},app.kubernetes.io/instance={{ .Release.Name }} {{ .Values.name }} --namespace {{ .Release.Namespace }}
