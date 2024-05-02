@@ -3,6 +3,22 @@ entries:
   istio-watchdog:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: "2024-05-02T03:52:42.898015437Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: A Helm chart for Kubernetes
+    digest: 2cdd421576d3240642bd876684408d0a1b92e4b1681713f9d67c5ba4d9095205
+    name: istio-watchdog
+    type: application
+    urls:
+    - https://github.com/Rhoat/helm-charts/releases/download/istio-watchdog-0.1.1/istio-watchdog-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: "2024-05-01T19:31:46.459724972Z"
     dependencies:
     - name: common
@@ -17,4 +33,4 @@ entries:
     urls:
     - https://github.com/Rhoat/helm-charts/releases/download/istio-watchdog-0.1.0/istio-watchdog-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-01T19:31:46.459740161Z"
+generated: "2024-05-02T03:52:42.898027439Z"
